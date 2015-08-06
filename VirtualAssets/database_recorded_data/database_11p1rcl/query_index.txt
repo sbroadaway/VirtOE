@@ -1,0 +1,10 @@
+ResultSetMetaData: SELECT value FROM Parameter WHERE name = 'accessmode';data_1p9lnps.csv
+SELECT value FROM Parameter WHERE name = 'accessmode';data_6b5b02.csv
+ResultSetMetaData: SELECT value FROM Parameter WHERE name = 'soap_endpoint';data_14clce6.csv
+SELECT value FROM Parameter WHERE name = 'soap_endpoint';data_106ipq0.csv
+ResultSetMetaData: SELECT value FROM Parameter WHERE name = 'rest_endpoint';data_1h4jbq3.csv
+SELECT value FROM Parameter WHERE name = 'rest_endpoint';data_1lalue9.csv
+SELECT id, first_name, last_name, address, city, state, zip_code, phone_number, ssn, username, password FROM Customer WHERE username = 'john' and password = 'demo';data_1rpvome.csv
+SELECT id, customer_id, type, balance FROM Account WHERE customer_id = '12212';data_1cjk0u.csv
+SELECT id, customer_id, type, balance FROM Account WHERE id = '13344';data_ohb29o.csv
+SELECT id, account_id, type, date, amount, description FROM Transaction WHERE account_id = '13344' ORDER BY date, id;data_1o8292o.csv
